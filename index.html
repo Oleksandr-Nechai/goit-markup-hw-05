@@ -28,27 +28,27 @@
         <nav class="nav">
           <ul class="site-nav list">
             <li class="menu-item">
-              <a href="./index.html" class="link decoration">Студия</a>
+              <a href="./index.html" class="link decoration menu-item-link">Студия</a>
             </li>
             <li class="menu-item">
-              <a href="./portfolio.html" class="decoration">Портфолио</a>
+              <a href="./portfolio.html" class="decoration menu-item-link">Портфолио</a>
             </li>
             <li class="menu-item">
-              <a href="" class="decoration">Контакты</a>
+              <a href="" class="decoration menu-item-link">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="nav-connection list">
-          <li class="menu-contact menu-mail">
-            <a href="mailto:info@devstudio.com" class="decoration menu-contact-mail">
+          <li class="menu-contact">
+            <a href="mailto:info@devstudio.com" class="decoration menu-contact-mailtel">
               <svg class="icon-menucontact" width="16" height="12">
                 <use href="./image/sprite.svg#icon-mail"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="menu-contact menu-tel">
-            <a href="tel:+380991111111" class="decoration">
+          <li class="menu-contact">
+            <a href="tel:+380991111111" class="decoration menu-contact-mailtel">
               <svg class="icon-menucontact" width="10" height="16">
                 <use href="./image/sprite.svg#icon-phone"></use>
               </svg>
@@ -63,7 +63,7 @@
       <section class="hero">
         <div class="container hero-padding">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="hero-button">Заказать услугу</button>
+          <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!-- Особенности -->
@@ -140,12 +140,21 @@
                 width="370"
                 height="294"
               />
+              <div class="img-signature">
+                <p class="img-signature-text">Десктопные приложения</p>
+              </div>
             </li>
             <li class="nav-indent-list">
               <img src="./image/bimg.jpg" alt="Работа на ноутбуке" width="370" height="294" />
+              <div class="img-signature">
+                <p class="img-signature-text">Мобильные приложения</p>
+              </div>
             </li>
             <li class="nav-indent-list">
               <img src="./image/cimg.jpg" alt="Рисования на планшете" width="370" height="294" />
+              <div class="img-signature">
+                <p class="img-signature-text">Дизайнерские приложения</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -161,28 +170,28 @@
                 <h3 class="section-family">Игорь Демьяненко</h3>
                 <p class="section-profession paragraph-color">Product Designer</p>
                 <ul class="ul-comand list">
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-instagram "></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-twitter "></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-linkedin"></use>
@@ -198,28 +207,28 @@
                 <h3 class="section-family">Ольга Репина</h3>
                 <p class="section-profession paragraph-color">Frontend Developer</p>
                 <ul class="ul-comand list">
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-instagram "></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-twitter "></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-linkedin"></use>
@@ -235,28 +244,28 @@
                 <h3 class="section-family">Николай Тарасов</h3>
                 <p class="section-profession paragraph-color">Marketing</p>
                 <ul class="ul-comand list">
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-instagram "></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-twitter "></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-linkedin"></use>
@@ -273,28 +282,28 @@
                 <h3 class="section-family">Михаил Ермаков</h3>
                 <p class="section-profession paragraph-color">UI Designer</p>
                 <ul class="ul-comand list">
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-instagram "></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-twitter "></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li>
+                  <li class="ul-margin-li">
                     <a href="" class="ul-comand-link">
                       <svg class="ul-comand-svg">
                         <use href="./image/sprite.svg#icon-linkedin"></use>
@@ -312,57 +321,45 @@
           <h2 class="section-caption constant-heading heading-indent">Постоянные клиенты</h2>
           <ul class="ul-client list">
             <li>
-              <a href="">
-                <div class="con-client-svg">
-                  <svg class="constant-svg">
-                    <use href="./image/sprite.svg#icon-logoyaco"></use>
-                  </svg>
-                </div>
+              <a href="" class="con-client-svg">
+                <svg class="constant-svg">
+                  <use href="./image/sprite.svg#icon-logoyaco"></use>
+                </svg>
               </a>
             </li>
             <li>
-              <a href="">
-                <div class="con-client-svg">
-                  <svg class="constant-svg">
-                    <use href="./image/sprite.svg#icon-logocompany"></use>
-                  </svg>
-                </div>
+              <a href="" class="con-client-svg">
+                <svg class="constant-svg">
+                  <use href="./image/sprite.svg#icon-logocompany"></use>
+                </svg>
               </a>
             </li>
             <li>
-              <a href="">
-                <div class="con-client-svg">
-                  <svg class="constant-svg">
-                    <use href="./image/sprite.svg#icon-logoacompany"></use>
-                  </svg>
-                </div>
+              <a href="" class="con-client-svg">
+                <svg class="constant-svg">
+                  <use href="./image/sprite.svg#icon-logoacompany"></use>
+                </svg>
               </a>
             </li>
             <li>
-              <a href="">
-                <div class="con-client-svg">
-                  <svg class="constant-svg">
-                    <use href="./image/sprite.svg#icon-logofoster"></use>
-                  </svg>
-                </div>
+              <a href="" class="con-client-svg">
+                <svg class="constant-svg">
+                  <use href="./image/sprite.svg#icon-logofoster"></use>
+                </svg>
               </a>
             </li>
             <li>
-              <a href="">
-                <div class="con-client-svg">
-                  <svg class="constant-svg">
-                    <use href="./image/sprite.svg#icon-logobrand"></use>
-                  </svg>
-                </div>
+              <a href="" class="con-client-svg">
+                <svg class="constant-svg">
+                  <use href="./image/sprite.svg#icon-logobrand"></use>
+                </svg>
               </a>
             </li>
             <li>
-              <a href="">
-                <div class="con-client-svg">
-                  <svg class="constant-svg">
-                    <use href="./image/sprite.svg#icon-logotag"></use>
-                  </svg>
-                </div>
+              <a href="" class="con-client-svg">
+                <svg class="constant-svg">
+                  <use href="./image/sprite.svg#icon-logotag"></use>
+                </svg>
               </a>
             </li>
           </ul>
@@ -390,28 +387,28 @@
         <div class="footer-padding footer-link">
           <h2 class="footer-heading">Присоединяйтесь</h2>
           <ul class="ul-footer list">
-            <li>
+            <li class="ul-margin-li">
               <a href="" class="ul-footer-link">
                 <svg class="ul-footer-svg">
                   <use href="./image/sprite.svg#icon-instagram "></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="ul-margin-li">
               <a href="" class="ul-footer-link">
                 <svg class="ul-footer-svg">
                   <use href="./image/sprite.svg#icon-twitter "></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="ul-margin-li">
               <a href="" class="ul-footer-link">
                 <svg class="ul-footer-svg">
                   <use href="./image/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="ul-margin-li">
               <a href="" class="ul-footer-link">
                 <svg class="ul-footer-svg">
                   <use href="./image/sprite.svg#icon-linkedin"></use>
@@ -422,5 +419,16 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+          <svg class="backdrop-svg">
+            <use href="./image/sprite.svg#icon-Vector-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
