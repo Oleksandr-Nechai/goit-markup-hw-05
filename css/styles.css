@@ -429,11 +429,19 @@ body {
 
 .ul-client {
   display: flex;
-  justify-content: space-around;
+  margin-left: -30px;
+  margin-top: -30px;
+  /*justify-content: space-around;
   align-items: center;
-  flex-basis: calc((100% - 180px) / 6);
+  */
 }
 
+.ul-client-li {
+  display: flex;
+  flex-basis: calc((100% - 150px) / 6);
+  margin-left: 30px;
+  margin-top: 30px;
+}
 .constant-svg {
   width: 106px;
   height: 60px;
@@ -442,8 +450,6 @@ body {
 
 .con-client-svg {
   width: 100%;
-  padding-left: 32px;
-  padding-right: 32px;
   height: 92px;
   border-radius: 4px;
   border: 1px solid #afb1b8;
@@ -463,10 +469,8 @@ body {
 .ul-footer,
 .ul-comand {
   display: flex;
-
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 30;
   margin-right: auto;
   margin-left: auto;
 }
@@ -566,14 +570,11 @@ body {
 }
 
 .img-signature {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-color: rgba(47, 48, 58, 0.8);
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 370px;
+  width: 100%;
 }
 
 .img-signature-text {
@@ -583,8 +584,7 @@ body {
   font-size: 14px;
   line-height: 1.17;
   text-transform: uppercase;
-  margin-right: auto;
-  margin-left: auto;
+  text-align: center;
   padding-top: 27px;
   padding-bottom: 27px;
 }
